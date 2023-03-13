@@ -28,7 +28,7 @@ zoom = Vector2( 2.5, 2.5 )
 position = Vector2( 633, 337 )
 
 [node name="Paret3" parent="." instance=ExtResource( 1 )]
-position = Vector2( 1986, -4352 )
+position = Vector2( 1986, -4365 )
 scale = Vector2( 0.75, 250 )
 
 [node name="Paret2" parent="." instance=ExtResource( 1 )]
