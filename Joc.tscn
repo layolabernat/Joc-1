@@ -1,11 +1,10 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Paret.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Personatge.gd" type="Script" id=2]
 [ext_resource path="res://icon.png" type="Texture" id=3]
 [ext_resource path="res://Paret 4.tscn" type="PackedScene" id=4]
 [ext_resource path="res://Paret rotatoria.tscn" type="PackedScene" id=5]
-[ext_resource path="res://Paret rotatoria.gd" type="Script" id=6]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 32, 32.5 )
@@ -43,13 +42,13 @@ position = Vector2( 1002, 635 )
 scale = Vector2( 50, 0.75 )
 
 [node name="Paret 4" parent="." instance=ExtResource( 4 )]
-position = Vector2( 1534, 107 )
+position = Vector2( 1608, 104 )
 
 [node name="Paret 5" parent="." instance=ExtResource( 4 )]
 position = Vector2( 337, 503 )
 
 [node name="Paret 6" parent="." instance=ExtResource( 4 )]
-position = Vector2( 1195, 240 )
+position = Vector2( 1271, 237 )
 
 [node name="Paret 7" parent="." instance=ExtResource( 4 )]
 position = Vector2( 1198, -34 )
@@ -58,7 +57,13 @@ position = Vector2( 1198, -34 )
 position = Vector2( 803, -133 )
 
 [node name="Paret 9" parent="." instance=ExtResource( 4 )]
-position = Vector2( 1256, -278 )
+position = Vector2( 1256, -269 )
+
+[node name="Paret 10" parent="." instance=ExtResource( 4 )]
+position = Vector2( 942, -408 )
+
+[node name="Paret 11" parent="." instance=ExtResource( 4 )]
+position = Vector2( 521, -538 )
 
 [node name="Paret falsa" type="ColorRect" parent="."]
 margin_left = 328.0
@@ -67,5 +72,12 @@ margin_right = 368.0
 margin_bottom = -254.0
 color = Color( 0.713726, 0.0588235, 0.0588235, 1 )
 
-[node name="Sprite" parent="." instance=ExtResource( 5 )]
-script = ExtResource( 6 )
+[node name="Paret falsa2" type="ColorRect" parent="."]
+margin_left = 535.0
+margin_top = 207.0
+margin_right = 575.0
+margin_bottom = 247.0
+color = Color( 0.713726, 0.0588235, 0.0588235, 1 )
+
+[node name="Paret rotatoria" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1281, -551 )
