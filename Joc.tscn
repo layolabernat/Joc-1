@@ -26,7 +26,7 @@ current = true
 zoom = Vector2( 2.5, 2.5 )
 
 [node name="Paret" parent="." instance=ExtResource( 1 )]
-position = Vector2( 518, 423 )
+position = Vector2( 819, 377 )
 
 [node name="Paret3" parent="." instance=ExtResource( 1 )]
 position = Vector2( 1986, -4365 )
@@ -37,5 +37,15 @@ position = Vector2( 1002, 635 )
 scale = Vector2( 50, 0.75 )
 
 [node name="Paret 4" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1534, 107 )
 
 [node name="Paret 5" parent="." instance=ExtResource( 4 )]
+position = Vector2( 337, 503 )
+
+[node name="Paret 6" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1195, 240 )
+
+[node name="Paret 7" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1198, -34 )
+
+[node name="Sprite" type="Sprite" parent="."]
