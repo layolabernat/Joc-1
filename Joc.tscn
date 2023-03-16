@@ -1,10 +1,13 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://Paret.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Personatge.gd" type="Script" id=2]
 [ext_resource path="res://icon.png" type="Texture" id=3]
 [ext_resource path="res://Paret 4.tscn" type="PackedScene" id=4]
 [ext_resource path="res://Paret rotatoria.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Paret rotatoria2.gd" type="Script" id=6]
+[ext_resource path="res://Paret rotatoria4.gd" type="Script" id=7]
+[ext_resource path="res://Area2D.tscn" type="PackedScene" id=8]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 32, 32.5 )
@@ -30,19 +33,19 @@ zoom = Vector2( 2.5, 2.5 )
 position = Vector2( 819, 377 )
 
 [node name="Paret3" parent="." instance=ExtResource( 1 )]
-position = Vector2( 1986, -4365 )
-scale = Vector2( 0.75, 250 )
+position = Vector2( 1989, -1368 )
+scale = Vector2( 0.75, 100 )
 
 [node name="Paret4" parent="." instance=ExtResource( 1 )]
-position = Vector2( -13, -4350 )
-scale = Vector2( 0.75, 250 )
+position = Vector2( -12, -1311 )
+scale = Vector2( 0.75, 100 )
 
 [node name="Paret2" parent="." instance=ExtResource( 1 )]
 position = Vector2( 1002, 635 )
 scale = Vector2( 50, 0.75 )
 
 [node name="Paret 4" parent="." instance=ExtResource( 4 )]
-position = Vector2( 1608, 104 )
+position = Vector2( 1666, 105 )
 
 [node name="Paret 5" parent="." instance=ExtResource( 4 )]
 position = Vector2( 337, 503 )
@@ -65,6 +68,96 @@ position = Vector2( 942, -408 )
 [node name="Paret 11" parent="." instance=ExtResource( 4 )]
 position = Vector2( 521, -538 )
 
+[node name="Paret 12" parent="." instance=ExtResource( 4 )]
+position = Vector2( 176, -695 )
+
+[node name="Paret 13" parent="." instance=ExtResource( 4 )]
+position = Vector2( 531, -846 )
+
+[node name="Paret 15" parent="." instance=ExtResource( 4 )]
+position = Vector2( 418, -999 )
+
+[node name="Paret 16" parent="." instance=ExtResource( 4 )]
+position = Vector2( 138, -1101 )
+
+[node name="Paret 17" parent="." instance=ExtResource( 4 )]
+position = Vector2( 569, -1212 )
+
+[node name="Paret 18" parent="." instance=ExtResource( 4 )]
+position = Vector2( 967, -1289 )
+
+[node name="Paret 19" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1527, -1309 )
+
+[node name="Paret 20" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1971, -1453 )
+
+[node name="Paret 21" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1540, -1540 )
+
+[node name="Paret 22" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1042, -1626 )
+
+[node name="Paret 23" parent="." instance=ExtResource( 4 )]
+position = Vector2( 598, -1717 )
+
+[node name="Paret 24" parent="." instance=ExtResource( 4 )]
+position = Vector2( 173, -1799 )
+
+[node name="Paret 25" parent="." instance=ExtResource( 4 )]
+position = Vector2( 636, -1911 )
+
+[node name="Paret 26" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1064, -1975 )
+
+[node name="Paret 27" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1537, -2030 )
+
+[node name="Paret 28" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1954, -2159 )
+
+[node name="Paret 29" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1539, -2248 )
+
+[node name="Paret 30" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1102, -2261 )
+
+[node name="Paret 31" parent="." instance=ExtResource( 4 )]
+position = Vector2( 710, -2301 )
+
+[node name="Paret 32" parent="." instance=ExtResource( 4 )]
+position = Vector2( 236, -2383 )
+
+[node name="Paret 33" parent="." instance=ExtResource( 4 )]
+position = Vector2( 42, -2518 )
+
+[node name="Paret 34" parent="." instance=ExtResource( 4 )]
+position = Vector2( 431, -2593 )
+
+[node name="Paret 35" parent="." instance=ExtResource( 4 )]
+position = Vector2( 868, -2651 )
+
+[node name="Paret 36" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1302, -2668 )
+
+[node name="Paret 37" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1721, -2687 )
+
+[node name="Paret 38" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1899, -2835 )
+
+[node name="Paret 39" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1551, -2933 )
+
+[node name="Paret 40" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1120, -3072 )
+
+[node name="Paret 41" parent="." instance=ExtResource( 4 )]
+position = Vector2( 736, -3148 )
+
+[node name="Paret 42" parent="." instance=ExtResource( 4 )]
+position = Vector2( 370, -3233 )
+
 [node name="Paret falsa" type="ColorRect" parent="."]
 margin_left = 328.0
 margin_top = -294.0
@@ -79,5 +172,27 @@ margin_right = 575.0
 margin_bottom = 247.0
 color = Color( 0.713726, 0.0588235, 0.0588235, 1 )
 
+[node name="Paret falsa3" type="ColorRect" parent="."]
+margin_left = 1258.0
+margin_top = -1582.0
+margin_right = 1298.0
+margin_bottom = -1542.0
+color = Color( 0.713726, 0.0588235, 0.0588235, 1 )
+
 [node name="Paret rotatoria" parent="." instance=ExtResource( 5 )]
 position = Vector2( 1281, -551 )
+
+[node name="Paret rotatoria2" parent="." instance=ExtResource( 5 )]
+position = Vector2( 791, -1297 )
+script = ExtResource( 6 )
+
+[node name="Paret rotatoria3" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1244, -2490 )
+rotation = 6.28319
+script = ExtResource( 6 )
+
+[node name="Paret rotatoria4" parent="." instance=ExtResource( 5 )]
+position = Vector2( 180, -2870 )
+script = ExtResource( 7 )
+
+[node name="Area2D" parent="." instance=ExtResource( 8 )]
